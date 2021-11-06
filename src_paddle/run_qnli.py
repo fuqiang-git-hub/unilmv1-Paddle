@@ -503,6 +503,7 @@ def do_train():
 # 评估
 evaluate(model, dev_data_loader, task_type=glue_task_type[task_name])
 # 开始模型训练
-do_train()
+if do_train:
+    do_train()
 
 
