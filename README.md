@@ -28,6 +28,7 @@ password: n0it
 We train the model on QNLI Dataset and GLUE Score achieves 92.8 on average. 
 ```bash
 git clone https://github.com/fuqiang-git-hub/unilmv1-Paddle.git
+# run train
 bash src_paddle/qnli.sh
 ```
 
